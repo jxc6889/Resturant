@@ -33,6 +33,10 @@ body{
     
     transition: transform 0.2s;
 }
+.navbar--hidden {
+    transform: translateY(calc(-1 * 50px));
+    box-shadow: none;
+  }
 .nav_link{
     position: relative;
     margin-left: 15px;
