@@ -135,7 +135,11 @@ iframe {
     width: 80% !important; 
     height: 70% !important;
 }
+.logo_con{
+    display: none;
+}
 @media only screen and (max-width:900px) {
+
     .row{
         display: flex;
         flex-direction: column;
@@ -161,4 +165,34 @@ iframe {
     .box::after{
         display: none;
     }
+    .navbar{
+        all: unset;
+        display: none;
+        margin-top: 100px;
+        text-align: left;
+        
+    }
+    
+    .nav_link{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+
+
+    }
+    .logo_con{
+        display: block;
+        position: absolute;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .menu-icon{
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+    
 }

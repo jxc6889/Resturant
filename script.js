@@ -12,5 +12,19 @@
       lastScrollY = window.scrollY;
     });
 
+    var menuList = document.getElementById("menuList");
+    
+    function togglemenu(){
+        if(menuList.style.display == "none"){
+            menuList.style.display = "block";
+            menuList.style.marginTop = "100px";
+          
+        }
+        else{
+            menuList.style.display = "none";
+            menuList.style.margin = "0px";
+            menuList.style.marginTop = "100px";
+        }
+    }
 }
   
