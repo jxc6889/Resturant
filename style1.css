@@ -4,20 +4,24 @@
     font-family: sans-serif;
 }
 html {
-    height: 1000px;
+    height: auto;
+    
   }
 body{
     background-image: url(img/food.jpg);
-    height: 100%;
+    height: auto;
+     
     
 }
 .container{
-    position: relative;
-    height: 80%; 
-    width: 90%; 
-    top: 10%; 
-    left: 5%; 
+    position: absolute;
+    min-height: 100%;
+    
+    width: 85%; 
+    
+    left: 7.5%; 
     background-color: #fff;
+    
 }
 .navbar{
     top: 0;
@@ -66,7 +70,7 @@ body{
 }
 .box{
     position: relative;
-    height: 90%; 
+    
     width: 95%; 
     top: 5%; 
     left: 2.5%; 
@@ -111,10 +115,9 @@ iframe {
     display: none;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    
     align-items: center;
-    width: 33%;
+    width: 66%;
     margin: 0 auto;
     
                 
@@ -132,31 +135,86 @@ iframe {
   }
   .menu1{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    
   }
   .menu2{
     display: none;
+    
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .menu3{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 .menu4{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 .menu5{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 .menu6{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 .menu7{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 .menu8{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }  
 .menu9{
     display: none;
+    
+    align-items: center;
+    margin-left: 16%;
+    margin-right: 16%;
 }
+.row_men {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    
+  }
+  
+  /* Create four equal columns */
+  .column_men {
+    
+    flex: 25%;
+    padding: 15px;
+  }
+  .item_header{
+      font-size: 20px;
+  }
+  
 @media only screen and (max-width:1000px) {
 
     .row{
