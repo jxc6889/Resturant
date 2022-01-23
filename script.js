@@ -26,5 +26,17 @@
             menuList.style.marginTop = "100px";
         }
     }
+    function showmenu(menu){
+        
+        console.log(menu);
+        for (let i = 1; i < 10; i++) {
+            var item = document.getElementById("menu"+i);
+            console.log("menu"+i)
+            item.style.display = "none";
+          }
+        
+        var show = document.getElementById(menu);
+        show.style.display = "block";
+    }
 }
   
