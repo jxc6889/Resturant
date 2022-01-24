@@ -37,6 +37,7 @@
         
         var show = document.getElementById(menu);
         show.style.display = "block";
+        
     }
 }
   

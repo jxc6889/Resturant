@@ -74,10 +74,10 @@ body{
     width: 95%; 
     top: 5%; 
     left: 2.5%; 
-    border: solid 1px;
+    border: solid red 1px;
     align-items: center;
     text-align: center;
-    background-color: aliceblue;
+    
 }
 .order{
     background: none;
@@ -118,8 +118,8 @@ iframe {
     
     align-items: center;
     width: 66%;
-    margin: 0 auto;
-    
+    margin: auto;
+    margin-bottom: 20px;
                 
   }
   .grid-item {
@@ -133,12 +133,17 @@ iframe {
   .menu_block{
       display: block;
   }
+  .menu_header{
+      margin: 20px;
+      text-align: center;
+  }
   .menu1{
-    display: none;
+    display: block;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
     
   }
   .menu2{
@@ -209,13 +214,31 @@ iframe {
   .column_men {
     
     flex: 25%;
-    padding: 15px;
+    padding: 20px;
   }
   .item_header{
-      font-size: 20px;
+      font-size: 15px;
+      
+  }
+  .item_con{
+    font-size: 15px;
+  }
+  .item_des{
+    font-size: 10px;
+  }
+  .logo{
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+      
+  }
+  .text1{
+      margin: 20px;
   }
   
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1500px) {
 
     .row{
         display: flex;
@@ -274,5 +297,19 @@ iframe {
         margin: 0px;
         padding: 0px;
     }
+    .column_men {
+    
+        flex: 33%;
+        padding: 20px;
+      }
+    
+}
+@media only screen and (max-width:1000px) {
+    .column_men {
+    
+        flex: 50%;
+        padding: 20px;
+      }
+   
     
 }
