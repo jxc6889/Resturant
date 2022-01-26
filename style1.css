@@ -150,57 +150,65 @@ iframe {
     display: none;
     
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .menu3{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .menu4{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .menu5{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .menu6{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .menu7{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .menu8{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }  
 .menu9{
     display: none;
     
     align-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
+    text-align: justify;
 }
 .row_men {
     display: flex;
