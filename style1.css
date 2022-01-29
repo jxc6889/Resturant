@@ -8,12 +8,14 @@ html {
     
   }
 body{
-    background-image: url(img/food.jpg);
+    /*background-image: url(img/food.jpg);*/
+    background-color: #fff;
     height: auto;
-     
+    overflow-x: hidden;
     
 }
 .container{
+    top : 100vh;
     position: absolute;
     min-height: 100%;
     
@@ -225,11 +227,13 @@ iframe {
     padding: 20px;
   }
   .item_header{
-      font-size: 15px;
+      font-size: 20px;
+      display: inline-block;
       
   }
   .item_con{
-    font-size: 15px;
+    font-size: 13px;
+    font-style: italic;
   }
   .item_des{
     font-size: 10px;
@@ -245,7 +249,44 @@ iframe {
   .text1{
       margin: 20px;
   }
+  .pic_con{
+        min-width:  100vw;
+        min-height: 100vh;
+        max-width:100vw;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        background-image: url(img/kbbq4.jpg);
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: center;
+        
+        
+  }
   
+  
+  .logoland{
+    max-width: 420px;
+    width: 80%;
+    position: relative;
+top: 50vh;
+transform: translateY(-50%);
+
+    
+    
+      
+      
+  }
+.hot{
+    
+    width: 20px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    
+}
 @media only screen and (max-width:1500px) {
 
     .row{
