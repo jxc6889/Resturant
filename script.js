@@ -39,5 +39,9 @@
         show.style.display = "block";
         
     }
+    const navToggle = document.querySelector('.nav_toggle');
+    navToggle.addEventListener('click',()=>{
+        document.body.classList.toggle('nav_open');
+    });
 }
   
