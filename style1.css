@@ -325,13 +325,15 @@ padding: 0;
         right: 10vw;
 }
 .logohead{
-    width: 100px;
+    width: 70px;
     height: 30px;
 
 }
 .headpic{
     width: 100%;
     height: 100%;
+    left : 2em;
+    
 }
 header{
     display: flex;
@@ -410,8 +412,8 @@ header{
     border: 0;
     cursor: pointer;
     position: absolute;
-    right : 1em;
-    top: 1em;
+    right : 2em;
+    top: 2em;
     z-index :1000;
     color: #297eaf;
 }
