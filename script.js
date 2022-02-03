@@ -57,7 +57,7 @@
     }
     window.addEventListener('scroll', () => {
       const scrolled = window.scrollY;
-      if(scrolled > 240){
+      if(scrolled > 360){
         document.getElementById("border").style.backgroundColor = "#262626";
 
       }
