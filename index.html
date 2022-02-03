@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <script src="script.js" defer></script>
+    <meta charset="UTF-8">
     <title>
         Resurtant
     </title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+
+    </script>
     
 </head>
 <body>
@@ -22,35 +27,24 @@
         <img src="img/bbq.png" alt="Girl in a jacket" class="logoland">
     </div>
     -->
-    <header>
-        <div class="logohead">
-            <img class ="headpic" src = "img/logo.png" alt="">
+    <div class="box-area" id="border">
+        <div class="wrapper">
+            <h1 class="nav-logo">soul garden</h1>
+            <nav>
+                <button class= "nav-button" onclick="window.scrollTo(0,241)">
+                    Menu
+                  </button>
+                  <button class= "nav-button" onclick="window.location.href='#info-header'">
+                    Location
+                  </button>
+                  
+                  
+            </nav>
         </div>
-        <button class="nav_toggle" aria_label ="toggle navagation">
-            <span class="hamburger">
+        
 
-            </span>
-        </button>
-        <nav class="navhead">
-            <ul class="nav_listhead">
-                <li class="nav_itemhead">
-                    <a href="" class="nav_linkhead">home</a>
-                </li>
-                <li class="nav_itemhead">
-                    <a href="" class="nav_linkhead">home</a>
-                </li>
-                <li class="nav_itemhead">
-                    <a href="" class="nav_linkhead">home</a>
-                </li>
-                <li class="nav_itemhead">
-                    <a href="" class="nav_linkhead">home</a>
-                </li>
-                <li class="nav_itemhead">
-                    <a href="" class="nav_linkhead">home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    </div>
+    
     <!-- 
         <div class="pic_con">
         <img src="img/logo.png" alt="Girl in a jacket" class="logoland">
@@ -58,14 +52,27 @@
     
     
 -->
-    <div class = "container">
+    <div class="intro">
+        
+            <img src = "img/kbbq1.jfif" alt="" class="slideshow-img">
+        
+        
+            <img src = "img/kbbq2.jfif" alt="" class="slideshow-img">
+      
+       
+            <img src = "img/kbbq3.jfif" alt="" class="slideshow-img">
+        
+      
+            <img src = "img/kbbq4.jpg" alt="" class="slideshow-img">
+      
+    </div>
+    <div class="logo1">
+        <img src="img/logo_trans.png" alt="Girl in a jacket" class="logo">
+    </div>
+    <div class = "container" id="container">
         <div class="box">
-                    <div class="logo1">
-                        <img src="img/bbq.png" alt="Girl in a jacket" class="logo">
-                    </div>
-                    <h1 class="text1" id= "text1">
-                        Menu
-                    </h1>
+            <h1 class="menu_header" id="menuheader">header1</h1>
+                    
                     <div class="grid-container">
                         <span class="grid-item" onclick="showmenu('menu1')" ><u>Select1</u></span>
                         <span class="grid-item" onclick="showmenu('menu2')" ><u>Select2</u></span>
@@ -79,12 +86,12 @@
                     </div>
             <div class="menu_block" id="menu_block">
                 <div class="menu1" id="menu1">
-                    <h1 class="menu_header">Courses</h1>
+                    
                     <div class="row_men">
                         <div class="column_men">
                             
                             <h1 class="item_header"> A Course (Serves 2) </h1>
-                            <span><img src="img/hot.png" alt="Girl in a jacket" class="hot"></span>
+                            <span class="pepper">&#127798;</span>
                             <h1 class="item_con">House Salad, Japchae 잡채, *Galbi 양념갈비, Dolsot Bibimbap <span>돌솥비빔밥 changed</span>, Sundubu 순두부</h1>
                             <p class="item_des">Choice of *Chadolbagi 차돌박이 or *Bulgogi 불고기 or *Chicken Bulgogi 닭불고기 or *Samgyeopsal 돼지삼겹살</p>
                         </div>
@@ -138,7 +145,7 @@
                     
                 </div>
                 <div class="menu2" id="menu2">
-                    <h1 class="menu_header">Menu2</h1>
+                    
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -232,7 +239,7 @@
                 </div>
                 </div>
                 <div class="menu3" id="menu3">
-                    <h1 class="menu_header">Menu3</h1>
+                    
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -282,7 +289,7 @@
                     </div>
                 </div>
                 <div class="menu4" id="menu4">
-                    <h1 class="menu_header">Menu4</h1>
+                    
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -332,7 +339,7 @@
                     </div>
                 </div>
                 <div class="menu5" id = "menu5">
-                    <h1 class="menu_header">Menu1</h1>
+                    
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -426,7 +433,7 @@
                     </div>
                 </div>
                 <div class="menu6" id = "menu6">
-                    <h1 class="menu_header">Menu1</h1>
+                    
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -476,7 +483,7 @@
                     </div>
                 </div>
                 <div class="menu7" id = "menu7">
-                    <h1 class="menu_header">Menu1</h1>
+                    
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -526,7 +533,7 @@
                     </div>
                 </div>
                 <div class="menu8" id = "menu8">
-                    <h1 class="menu_header">Menu1</h1>
+                   
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -576,7 +583,7 @@
                     </div>
                 </div>
                 <div class="menu9" id = "menu9">
-                    <h1 class="menu_header">Menu1</h1>
+                  
                     <div class="row_men">
                     <div class="column_men">
                         <h1 class="item_header"> A Course (Serves 2) </h1>
@@ -625,18 +632,64 @@
                     </div>
                     </div>
                 </div>
-                <div class="logo1">
-                    <img src="img/bbq.png" alt="Girl in a jacket" class="logo">
-                </div>
                 
-                <h1 class="contact">
-                    4701 Atlantic Ave • Seoul Garden • 984-465-7358
-                </h1>
-                <div class="pic_con2">
-                    <img src="img/logo.png" alt="Girl in a jacket" class="logoland">
-                </div>
+                
+                
+                
             </div>
         </div>
+    </div>
+    <h1 class="info-header" id = "info-header">
+        Contact
+    </h1>
+    
+    <div class="info">
+    
+            <img class = "map" src = "img/map.png" alt="" >
+        
+        <div class="contact-info">
+            
+            <div class="info-address">
+                <h1 class = "info-head">
+                    Location
+                </h1>
+                <p class="info-para">
+                    4701 Atlantic Ave • Seoul Garden • 984-465-7358
+                </p>
+                <h1 class = "info-head">
+                    Email
+                </h1>
+                <p class="info-para"> 
+                    asdnasdn@gmail.com
+                </p>
+                <h1 class = "info-head">
+                    Phone
+                </h1>
+                <p class="info-para">
+                    123456789
+                </p>
+                <h1 class = "info-head">
+                    Hours
+                </h1>
+                
+                    5:00 to 11:00
+                </p>
+                <p class="info-para">
+                    Monday to Friday
+                </p>
+                <h1 class = "info-head">
+                    Reservations
+                </h1>
+                <p class="info-para"> 
+                    For reservation requests, please e-mail --------------
+                </p>
+                
+
+            </div>
+            
+            
+        </div>
+        
     </div>
     
 </body>
