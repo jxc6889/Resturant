@@ -21,9 +21,9 @@ body{
     position: relative;
     min-height: 100%;
     margin-top: 65vh;
-    width: 90%; 
+    width: 100%; 
     
-    left: 5%; 
+     
     background-color: rgba(245, 245, 245, 0.750);
     
 }
@@ -109,6 +109,8 @@ nav a{
 }
 .pepper{
     color: red;
+    
+    float: right;
 }
 .logo{
     position: absolute;
@@ -120,7 +122,7 @@ nav a{
     height: 15vh;
     cursor: pointer;
     margin: 0px 0;
-    color: rgba(245, 245, 245, 0.750);;
+    color: rgba(245, 245, 245, 0.750);
 }
 .menu-icon{
     width: 25px;
@@ -694,6 +696,9 @@ padding: 0;
 .item_des{
     font-size: 15px;
 }
+.small{
+    display: none;
+}
 @media all and (max-width: 550px){
     .fullnav{
         flex-direction: column;
@@ -748,6 +753,7 @@ padding: 0;
         flex-basis: 50%;
         min-width: 40%;
         max-width: 50%;
+        max-height: 50%;
         justify-content: center;
         align-items: center;
     
@@ -770,12 +776,31 @@ padding: 0;
     left: 50vw;
     transform: translatex(-50%);
 
-    width: 25vw;
+    width: 30vw;
     height: 15vh;
     cursor: pointer;
     margin: 0px 0;
     color: rgba(245, 245, 245, 0.750);;
     }
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+    .item_header{
+        
+    }
+    .price{
+
+    }
+    .item_con{
+
+    }
+    .container{
+        
+    }
+
 }
 
 
@@ -863,7 +888,14 @@ padding: 0;
     }
     
 }
-
+@media only screen and (max-width:1000px) {
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+}
 @media only screen and (max-width:800px) {
     .column_men {
     
@@ -895,6 +927,12 @@ padding: 0;
         align-content: center;
         text-align: center;
     }
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
     
 }
 @media only screen and (max-width:700px) {
@@ -922,6 +960,13 @@ padding: 0;
         font-size: 25px;
         margin-left: 5%;
     }
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+
     
 }
 @media only screen and (max-width:600px) {
@@ -949,7 +994,12 @@ padding: 0;
         font-size: 20px;
         margin-left: 5%;
     }
-    
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
 }
 
 

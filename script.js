@@ -104,5 +104,9 @@
         document.getElementById("border").style.backgroundColor = "transparent";
       }
     });
+    if($(window).width() >= 1024){
+      // do your stuff
+      
+    }
 }
   
