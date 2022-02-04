@@ -27,9 +27,7 @@ body{
     background-color: rgba(245, 245, 245, 0.750);
     
 }
-.menu-header{
-    
-}
+
 .box-area{
     height: 60px;
     background-color: transparent;
@@ -205,7 +203,12 @@ iframe {
       margin: 30px;
       text-align: center;
       font-family:  STKaiti Regular ,Arial, Helvetica, sans-serif;
+      display: none;
   }
+
+.menu_header:first-child{
+    display: block;
+}
   .menu1{
     display: block;
     

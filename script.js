@@ -15,8 +15,9 @@
     }
     const menuheader = ["Rice", "Noodles", "Fried Rice","Lunch Menu", "Appetizers", "Korean BBQ" , "Chef's Choice" , "Casserole" , "Grilled Fish", "Kid's Menu", "Soups and Stews"];
     function showmenu(menu){
-        
-        console.log(menu);
+      var menu_header = document.getElementsByClassName('menu_header');
+      
+        console.log(document.getElementsByClassName('menu_header'));
         for (let i = 1; i < 12; i++) {
           if(i < 10){
             var item = document.getElementById("menu0"+i);
@@ -34,9 +35,26 @@
           console.log(Number(menu_nunber));
         var show = document.getElementById(menu);
         show.style.display = "block";
-        document.getElementById("menuheader").innerHTML = menuheader[Number(menu_nunber)-1];
+        //document.getElementById("menuheader").innerHTML = menuheader[Number(menu_nunber)-1];
+        //for(let i = 1; i<12 ; i ++){
+          //menu_header.get(i).setAttribute("style", "display: none;")
+        //}
+
+        //menu_header[Number(menu_nunber)-1].setAttribute("style", "display: block;");
+        menu_header[0].setAttribute("style", "display : none;");
+        menu_header[1].setAttribute("style", "display : none;");
+        menu_header[2].setAttribute("style", "display : none;");
+        menu_header[3].setAttribute("style", "display : none;");
+        menu_header[4].setAttribute("style", "display : none;");
+        menu_header[5].setAttribute("style", "display : none;");
+        menu_header[6].setAttribute("style", "display : none;");
+        menu_header[7].setAttribute("style", "display : none;");
+        menu_header[8].setAttribute("style", "display : none;");
+        menu_header[9].setAttribute("style", "display : none;");
+        menu_header[10].setAttribute("style", "display : none;");
+       
         
-        
+        menu_header[Number(menu_nunber)-1].setAttribute("style", "display : block;");
         
         if(menu != "menu02"){
           document.getElementById("extra").style.display = "block";
@@ -106,7 +124,7 @@
     });
     if($(window).width() >= 1024){
       // do your stuff
-      
+
     }
 }
   
