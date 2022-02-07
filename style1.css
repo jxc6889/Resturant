@@ -702,109 +702,7 @@ padding: 0;
 .small{
     display: none;
 }
-@media all and (max-width: 550px){
-    .fullnav{
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .menu{
-        display: block;
-        position: absolute;
-        right: 45px;
-        top: 60px;
-        
-   
- 
-    
 
-    }
-    .fullli{
-        display: block;
-        padding: 10px;
-        border-top: 1px solid black;
-        
-    }
-    .fullli:last-child{
-        border-bottom: 1px solid black;
-    }
-    .fullul{
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-        padding-top: 10px;
-        margin-bottom: 1px;
-        display: none;
-
-    }
-    .fulllink{
-        margin-right: 0px;
-    }
-    .entirediv{
-        width: 100%;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-    .active{
-        display: block;
-    }
-    .info{
-        flex-direction: column;
-        text-align: center;
-
-    }
-    .map{
-        flex-basis: 50%;
-        min-width: 40%;
-        max-width: 50%;
-        max-height: 30%;
-        justify-content: center;
-        align-items: center;
-    
-       
-    
-    }
-    .nav-logo{
-        width: 40%;
-    
-        font-size: 20px;
-        margin-left: 5%;
-    }
-    .wrapper{
-        width: 100%;
-        margin-left: 0;
-    }
-    .logo{
-        position: absolute;
-    top:23vh;
-    left: 50vw;
-    transform: translatex(-50%);
-
-    width: 30vw;
-    height: 15vh;
-    cursor: pointer;
-    margin: 0px 0;
-    color: rgba(245, 245, 245, 0.750);;
-    }
-    .big{
-        display: none;
-    }
-    .small{
-        display: block;
-    }
-    .item_header{
-        
-    }
-    .price{
-
-    }
-    .item_con{
-
-    }
-    .container{
-        
-    }
-
-}
 
 
 @media only screen and (max-width:1500px) {
@@ -871,6 +769,7 @@ padding: 0;
         flex: 33%;
         padding: 20px;
       }
+      
       .logo{
         position: absolute;
         top:23vh;
@@ -889,7 +788,12 @@ padding: 0;
         font-size: 30px;
         margin-left: 5%;
     }
-    
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
 }
 @media only screen and (max-width:1000px) {
     .big{
@@ -905,7 +809,7 @@ padding: 0;
         flex: 50%;
         padding: 20px;
       }
-   
+      
     .logo{
         position: absolute;
         top:23vh;
@@ -1005,5 +909,113 @@ padding: 0;
     }
 }
 
+@media only screen and (max-width: 550px){
+    .fullnav{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 45px;
+        top: 60px;
+        
+   
+ 
+    
 
+    }
+    .fullli{
+        display: block;
+        padding: 10px;
+        border-top: 1px solid black;
+        
+    }
+    .fullli:last-child{
+        border-bottom: 1px solid black;
+    }
+    .fullul{
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 1px;
+        display: none;
+
+    }
+    .fulllink{
+        margin-right: 0px;
+    }
+    .entirediv{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .active{
+        display: block;
+    }
+    .info{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .map{
+        flex-basis: 50%;
+        min-width: 50%;
+        max-width: 60%;
+        max-height: 40%;
+        justify-content: center;
+        align-items: center;
+    
+       
+    
+    }
+    .nav-logo{
+        width: 40%;
+    
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .wrapper{
+        width: 100%;
+        margin-left: 0;
+    }
+    .nav-logo{
+        width: 40%;
+    
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .logo{
+        position: absolute;
+    top:23vh;
+    left: 50vw;
+    transform: translatex(-50%);
+
+    width: 25vw;
+    height: 15vh;
+    cursor: pointer;
+    margin: 0px 0;
+    color: rgba(245, 245, 245, 0.750);;
+    }
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+    .item_header{
+        
+    }
+    .price{
+
+    }
+    .item_con{
+
+    }
+    .container{
+        
+    }
+
+}
 
